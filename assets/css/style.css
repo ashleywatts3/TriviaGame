@@ -1,0 +1,100 @@
+body {
+	font-family: "Arial";
+	background-image: url('assets/images/Konoha.jpg');
+}
+
+.wrapper{
+	
+}
+
+.header {
+	
+	background: rgb(242, 242, 247);
+	opacity: .9;
+	text-align: center;
+	color: #000201;
+	border: solid 5px #eedfcc;
+	border-radius: 5px;
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+.startBtn {
+	/*float: left;*/
+	text-align: center;
+	background: #f1f505;
+	color: rgb(5, 0, 0);
+	height: 50px;
+	width: 150px;
+	margin: 10px;
+	padding: 60px;
+
+}
+
+
+#mainContainer {
+	clear: both;
+	background: rgb(252, 254, 255);
+	opacity: .9;
+	text-align: center;
+	color: #000808;
+	border: solid 5px #eedfcc;
+	border-radius: 5px;
+	
+}
+
+.clockdiv {
+	font-family: "Arial";
+	float: right;
+	text-align: center;
+	font-size: 18px;
+	background: rgb(130, 82, 218);
+	padding: 20px;
+	border: solid 10px #07c6db;
+	color: #f7f4fc;
+	opacity: .9;
+	border-radius: 10px;
+}
+
+.question {
+	color: #f86707;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+label {
+	font-size: 18px;
+	margin: 4px 8px;
+	line-height: 60px;
+}
+
+#submit{
+	margin: 10px;
+	padding: 20px 30px;
+	background: #06e6ff;
+	color: rgb(7, 7, 7);
+	text-align: center;
+	position: center;
+	border-radius: 5px;
+	opacity: .9;
+	font-size: 22px;
+}
+
+#results{
+	background: white;
+	opacity: .9;
+	text-align: center;
+	color: #53868b;
+	font-weight: 700;
+	font-size: 32px;
+	border: solid 5px #eedfcc;
+	border-radius: 5px;
+	line-height: 40px;
+}
