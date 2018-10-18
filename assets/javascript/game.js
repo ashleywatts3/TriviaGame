@@ -66,13 +66,13 @@ var questionArray = [
 
     $(document).ready(function() {
 
-        var counter = 45;
+        var counter = 60;
     
         
     
         function headerText() {
             $(".header").append("<h1> Naruto Trivia Game </h1>");
-            $(".header").append("<h3> Can you beat the timer? </h3>");
+            $(".header").append("<h3> Believe it! </h3>");
         }
         
     
