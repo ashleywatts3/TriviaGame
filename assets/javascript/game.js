@@ -211,17 +211,3 @@ var questionArray = [
         }
     });
 
-$(document).ready(function() {
-       
-    var audioElement = document.createElement("audio");
-    audioElement.setAttribute("src", "Assets/naruto.mp3");
-
-    $(".theme-button").on("click", function() {
-            audioElement.play();
-    });
-    $(".pause-button").on("click", function() {
-            audioElement.pause();
-
-    });
-
-});
